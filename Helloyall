@@ -1,0 +1,138 @@
+-- my hop server for steal a brainrot find good brainrots and have funny
+local message = "more script keyless here https://discord.gg/gcwe7gae"
+setclipboard(message)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Clipboard";
+Text = " wait 1-2min to find server more scripts keyless here!";
+Duration = 5;
+})
+
+function SsPObuzcQGtWgixdTHOqrbnTElFgiYamrihhgGtsNFkLUtoSyzaVKrtjwmuOueepALigVcHAkxYGSpRc(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/9292)end return res end 
+
+
+function QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN(code)res=SsPObuzcQGtWgixdTHOqrbnTElFgiYamrihhgGtsNFkLUtoSyzaVKrtjwmuOueepALigVcHAkxYGSpRc({})for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+local TeleportService = game:GetService(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8820,10605,11340,10605,11760,11655,11970,12180,8715,10605,11970,12390,11025,10395,10605}))
+local Players = game:GetService(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8400,11340,10185,12705,10605,11970,12075}))
+local HttpService = game:GetService(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({7560,12180,12180,11760,8715,10605,11970,12390,11025,10395,10605}))
+local player = Players.LocalPlayer
+local placeId = game.PlaceId
+local allowedPlaceId = 109983668079237
+
+if placeId ~= allowedPlaceId then
+    player:Kick(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({9345,11655,12285,3360,10185,11970,10605,3360,11550,11655,12180,3360,11025,11550,3360,12180,10920,10605,3360,10185,11340,11340,11655,12495,10605,10500,3360,10815,10185,11445,10605,3360,10710,11655,11970,3360,6825,11340,10815,11655,11340,3360,7560,12285,10290,3360,7350,11025,11550,10500,10605,11970,3465}))
+    return
+end
+
+local ScreenGui = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8715,10395,11970,10605,10605,11550,7455,12285,11025}), game.CoreGui)
+local Frame = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({7350,11970,10185,11445,10605}), ScreenGui)
+Frame.Size = UDim2.new(0, 250, 0, 120)
+Frame.Position = UDim2.new(0.5, -125, 0.5, -60)
+Frame.BackgroundColor3 = Color3.fromRGB(25, 0, 40)
+Frame.BorderSizePixel = 0
+local UICorner = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8925,7665,7035,11655,11970,11550,10605,11970}), Frame)
+UICorner.CornerRadius = UDim.new(0, 12)
+local dragging = false
+local dragInput, mousePos, framePos
+
+local function update(input)
+    local delta = input.Position - mousePos
+    Frame.Position = UDim2.new(framePos.X.Scale, framePos.X.Offset + delta.X, framePos.Y.Scale, framePos.Y.Offset + delta.Y)
+end
+
+Frame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        mousePos = input.Position
+        framePos = Frame.Position
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+Frame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement then
+        dragInput = input
+    end
+end)
+
+game:GetService(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8925,12075,10605,11970,7665,11550,11760,12285,12180,8715,10605,11970,12390,11025,10395,10605})).InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        update(input)
+    end
+end)
+
+local Title = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8820,10605,12600,12180,7980,10185,10290,10605,11340}), Frame)
+Title.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({6825,11340,10815,11655,11340,3360,7560,12285,10290,3360,7350,11025,11550,10500,10605,11970})
+Title.Size = UDim2.new(1, 0, 0, 35)
+Title.BackgroundColor3 = Color3.fromRGB(60, 0, 100)
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.BorderSizePixel = 0
+Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8925,7665,7035,11655,11970,11550,10605,11970}), Title).CornerRadius = UDim.new(0, 12)
+
+local Status = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8820,10605,12600,12180,7980,10185,10290,10605,11340}), Frame)
+Status.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({6825,12285,12180,11655,6090,3360,8295,7350,7350})
+Status.Size = UDim2.new(1, -20, 0, 30)
+Status.Position = UDim2.new(0, 10, 0, 45)
+Status.BackgroundTransparency = 1
+Status.TextColor3 = Color3.fromRGB(200, 150, 255)
+Status.TextScaled = true
+
+local Toggle = Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8820,10605,12600,12180,6930,12285,12180,12180,11655,11550}), Frame)
+Toggle.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8715,12180,10185,11970,12180})
+Toggle.Size = UDim2.new(0, 100, 0, 30)
+Toggle.Position = UDim2.new(0.5, -50, 1, -40)
+Toggle.BackgroundColor3 = Color3.fromRGB(90, 0, 150)
+Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.TextScaled = true
+Instance.new(QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8925,7665,7035,11655,11970,11550,10605,11970}), Toggle).CornerRadius = UDim.new(0, 8)
+
+local running = false
+local function findServer()
+    local cursor = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({})
+    while running do
+        local url = (QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({10920,12180,12180,11760,12075,6090,4935,4935,10815,10185,11445,10605,12075,4830,11970,11655,10290,11340,11655,12600,4830,10395,11655,11445,4935,12390,5145,4935,10815,10185,11445,10605,12075,4935,3885,10500,4935,12075,10605,11970,12390,10605,11970,12075,4935,8400,12285,10290,11340,11025,10395,6615,12075,11655,11970,12180,8295,11970,10500,10605,11970,6405,6825,12075,10395,3990,11340,11025,11445,11025,12180,6405,5145,5040,5040,3885,12075})):format(
+            placeId,
+            cursor ~= QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({}) and QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({3990,10395,12285,11970,12075,11655,11970,6405}) .. cursor or QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({})
+        )
+        local success, result = pcall(function()
+            return HttpService:JSONDecode(game:HttpGet(url))
+        end)
+
+        if success and result and result.data then
+            for _, server in ipairs(result.data) do
+                if server.playing >= 4 and server.playing < server.maxPlayers then
+                    Status.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8820,10605,11340,10605,11760,11655,11970,12180,11025,11550,10815,4830,4830,4830})
+                    TeleportService:TeleportToPlaceInstance(placeId, server.id, player)
+                    return
+                end
+            end
+            if result.nextPageCursor then
+                cursor = result.nextPageCursor
+            else
+                cursor = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({})
+            end
+        else
+            Status.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({7245,11970,11970,11655,11970,3360,10710,10605,12180,10395,10920,11025,11550,10815,3360,12075,10605,11970,12390,10605,11970,12075})
+            break
+        end
+        task.wait(2)
+    end
+end
+
+Toggle.MouseButton1Click:Connect(function()
+    running = not running
+    if running then
+        Status.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({6825,12285,12180,11655,6090,3360,8295,8190})
+        Toggle.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8715,12180,11655,11760})
+        task.spawn(findServer)
+    else
+        Status.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({6825,12285,12180,11655,6090,3360,8295,7350,7350})
+        Toggle.Text = QRNVEKKjxawDlkZlwWtplGjdaDXTtAzEfrRsfFNLcrTrmKCctVpRIxIWN({8715,12180,10185,11970,12180})
+    end
+end)        
