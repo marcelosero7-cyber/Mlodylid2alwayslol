@@ -1,5 +1,5 @@
 -- my hop server for steal a brainrot find good brainrots and have funny
-local message = "more script keyless here https://discord.gg/gcwe7gae"
+local message = "more script keyless here https://discord.gg/yX7tyWCR"
 setclipboard(message)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Clipboard";
